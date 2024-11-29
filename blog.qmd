@@ -1,0 +1,55 @@
+---
+title: |
+  | ECON 2204 
+  | Introduction to Data Science for Finance and Economics
+subtitle: |
+    | Assignment 5
+    | Due Thursday November 28, 2024
+author: Anmol Verma
+format: 
+  pdf:
+    auto-stretch: false
+    include-in-header: 
+      text: |
+        \usepackage{fancyhdr}
+        \fancypagestyle{style1}{
+        \fancyhf{}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{0.4pt}
+        }
+
+        \fancypagestyle{style2}{
+        \fancyhf{}
+        \fancyhead[R]{Assignment 4}
+        \fancyhead[L]{ECON 2204}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{1pt}
+        }
+        \pagestyle{style2}
+execute: 
+  eval: false
+  echo: true
+---
+
+---
+title: "Blog"
+---
+
+## My First Blog Post
+
+Here is a sample R graphic created with the base plotting system:
+
+```{r}
+
+# Example: A simple scatter plot using the iris dataset
+plot(iris$Sepal.Length, iris$Sepal.Width,
+     main = "Sepal Dimensions of Iris Flowers",
+     xlab = "Sepal Length",
+     ylab = "Sepal Width",
+     col = iris$Species,
+     pch = 19)
+legend("topright", legend = levels(iris$Species), col = 1:3, pch = 19)
+
+```
+
+![plot Image](plotG.png){width = 50%}

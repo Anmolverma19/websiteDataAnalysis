@@ -1,0 +1,42 @@
+---
+title: |
+  | ECON 2204 
+  | Introduction to Data Science for Finance and Economics
+subtitle: |
+    | Assignment 5
+    | Due Thursday November 28, 2024
+author: Anmol Verma
+format: 
+  pdf:
+    auto-stretch: false
+    include-in-header: 
+      text: |
+        \usepackage{fancyhdr}
+        \fancypagestyle{style1}{
+        \fancyhf{}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{0.4pt}
+        }
+
+        \fancypagestyle{style2}{
+        \fancyhf{}
+        \fancyhead[R]{Assignment 4}
+        \fancyhead[L]{ECON 2204}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{1pt}
+        }
+        \pagestyle{style2}
+execute: 
+  eval: false
+  echo: true
+---
+
+---
+title: "contact"
+format: html
+editor: visual
+---
+
+## Contact Me
+
+Email: anmolverma\@gmail.com
